@@ -1,0 +1,21 @@
+# Virtual environment - don't push this
+venv/
+
+# Secret keys - NEVER push this
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Database files
+*.db
+*.sqlite3
+
+# Celery files
+celerybeat-schedule
+celerybeat.pid
+
+# VS Code settings
+.vscode/
